@@ -1,0 +1,10 @@
+<div class="outer">
+    <h2> {{ coin }} </h2>
+    <figure id="line"></figure>
+    <div class="radio_btn">
+        <input type="radio" id="bit" name="coin" value="bit" (change)="radioChangeHandler($event)"  checked >
+        <label for="bit">BitCoin</label><br>
+        <input type="radio" id="eth" name="coin" value="eth" (change)="radioChangeHandler($event)" >
+        <label for="eth">Ethereum</label><br>
+    </div>
+</div>
